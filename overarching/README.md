@@ -49,3 +49,18 @@ Change That Require a New Version
 - Removed or renamed URIs
 - Different data returned for same URI
 - Removal of support for HTTP methods on existing URIs
+
+## Don’t Break Backward Compatibility
+
+## If a new version of an API is released the old version must be kept alive for some time
+
+- Discuss with clients the time needed to keep old version alive
+- Do not let new clients use old version
+- Monitor usage of old version and retire it when no longer in use
+
+
+## No verbs in resources only nouns (keep URLs verb free)
+
+## No more than 2 sub-resource type
+
+- e.g. http://api/customers/{id}/addresses/{addr}

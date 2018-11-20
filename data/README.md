@@ -18,3 +18,7 @@
 
 - Stack traces contain implementation details that are not part of an API, and on which clients should never rely. Moreover, stack traces can leak sensitive information that partners and third parties are not allowed to receive and may disclose insights about vulnerabilities to attackers.
 - Error messages should also not include SQL queries or any information about the underlying systems (servers / DB in use etc.)
+
+## Always support pagination of data
+
+## Use snake_case (never camelCase) for Query Parameters
