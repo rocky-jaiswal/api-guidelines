@@ -28,6 +28,7 @@ POST
 ### Redirection Codes
 
 Code	Meaning	Methods
+
 301
 Moved Permanently - This and all future requests should be directed to the given URI.
 All
