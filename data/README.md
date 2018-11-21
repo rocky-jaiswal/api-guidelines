@@ -22,3 +22,5 @@
 ## Always support pagination of data
 
 ## Use snake_case (never camelCase) for Query Parameters
+
+## Use ISO_3166-1_alpha-2 for country codes

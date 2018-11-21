@@ -6,3 +6,5 @@
 
 ## Permissions should be documented
 
+## If the API has roles, they should be documented
+
